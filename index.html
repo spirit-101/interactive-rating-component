@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <script defer src="script.js"></script>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body
+    class="bg-veryDarkBlue flex flex-col items-center justify-center min-h-100vh"
+  >
+    <div class="bg-darkBlue max-w-md py-10 px-8 rounded-3xl transition-all">
+      <div class="step__rating">
+        <div
+          class="img-box flex items-center justify-center rounded-full bg-darkBlue2 text-lightGrey w-11 h-11 mb-8"
+        >
+          <img src="images/icon-star.svg" alt="" aria-hidden="true" />
+        </div>
+
+        <h1 class="text-2xl text-white mb-3">How did we do?</h1>
+        <p class="text-lightGrey mb-7">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="rating-buttons">
+          <button class="rating-button" data-rating="1">1</button>
+          <button class="rating-button" data-rating="2">2</button>
+          <button class="rating-button" data-rating="3">3</button>
+          <button class="rating-button" data-rating="4">4</button>
+          <button class="rating-button" data-rating="5">5</button>
+        </div>
+
+        <button
+          class="submit-btn bg-orange transition-all duration- text-white w-full tracking-wider py-2.5 rounded-3xl hover:bg-white hover:text-orange"
+        >
+          SUBMIT
+        </button>
+      </div>
+
+      <div class="step__complete hidden">
+        <div class="flex justify-center mb-8">
+          <img
+            src="images/illustration-thank-you.svg"
+            alt=""
+            aria-hidden="true"
+          />
+        </div>
+
+        <div class="flex justify-center mb-6">
+          <span
+            class="step__complete-rating text-orange mb-3 py-1 px-3.5 rounded-xl bg-darkBlue2"
+          >
+            You selected 4 out of 5
+          </span>
+        </div>
+
+        <div class="text-center">
+          <h2 class="text-2xl text-white mb-3">Thank you!</h2>
+          <p class="text-lightGrey mb-7">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, please don't hesitate to get in touch!
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Rating state start -->
+
+    <!-- 1 2 3 4 5 Submit -->
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+
+    <!-- You selected -->
+    <!-- Add rating here -->
+    <!-- out of 5 Thank you! We appreciate you taking the time to give a rating. If -->
+    <!-- you ever need more support, don’t hesitate to get in touch! -->
+
+    <!-- Thank you state end -->
+  </body>
+</html>
