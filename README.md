@@ -1,6 +1,6 @@
 ![frontend mentor](/design/desktop-design.jpg)
 
-<h1 align="center">Huddle Landing Page with Curved Sections</h1>
+<h1 align="center">Interactive Rating Component</h1>
 
 <hr>
 
