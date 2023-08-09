@@ -6,7 +6,7 @@
 
 🌐 [View the live site](https://spirit-101.github.io/interactive-rating-component/)
 
-🧠 [Check out the solution](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-PfaT6PzKjJ)
+🧠 [Check out the solution](https://www.frontendmentor.io/solutions/interactive-rating-component-Z8WVngPt0b)
 
 📝 [View the challenge](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
 
