@@ -21,6 +21,7 @@ ratingContainer.addEventListener("click", function (e) {
 });
 
 btnSubmit.addEventListener("click", function () {
+  if (!rating) return;
   stepRating.classList.add("hidden");
   stepComplete.classList.remove("hidden");
 
